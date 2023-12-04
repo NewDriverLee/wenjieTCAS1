@@ -42,6 +42,8 @@ parser.add_argument("--group_size", type=int, default=64)
 parser.add_argument("--group_size", type=int, default=128)
 ```
 
+The .sh files may help you a lot on the commands.
+
 # Reproduce the results of RPTQ
 To reproduce the perplexity results for RPTQ, please first choose corresponding arguments in the main.py:
 
