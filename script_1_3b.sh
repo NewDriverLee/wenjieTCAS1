@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#python main.py opt-1.3b --wbits 4 --abits 4 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 1 --topk_num_final_layer_norm 1 --topk_num_fc2 1 --topk_num_out_proj_head 1 --topk_num_q_proj_head 1
+#python main.py opt-1.3b --wbits 4 --abits 4 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 2 --topk_num_final_layer_norm 2 --topk_num_fc2 2 --topk_num_out_proj_head 2 --topk_num_q_proj_head 2
+python main.py opt-1.3b --wbits 4 --abits 4 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 4 --topk_num_final_layer_norm 4 --topk_num_fc2 4 --topk_num_out_proj_head 4 --topk_num_q_proj_head 4
+python main.py opt-1.3b --wbits 4 --abits 4 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 8 --topk_num_final_layer_norm 8 --topk_num_fc2 8 --topk_num_out_proj_head 8 --topk_num_q_proj_head 8
+#python main.py opt-1.3b --wbits 4 --abits 8 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 1 --topk_num_final_layer_norm 1 --topk_num_fc2 1 --topk_num_out_proj_head 1 --topk_num_q_proj_head 1
+#python main.py opt-1.3b --wbits 4 --abits 8 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 2 --topk_num_final_layer_norm 2 --topk_num_fc2 2 --topk_num_out_proj_head 2 --topk_num_q_proj_head 2
+#python main.py opt-1.3b --wbits 4 --abits 8 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 4 --topk_num_final_layer_norm 4 --topk_num_fc2 4 --topk_num_out_proj_head 4 --topk_num_q_proj_head 4
+#python main.py opt-1.3b --wbits 4 --abits 8 --eval_ppl --tasks lambada_openai,piqa,arc_easy,arc_challenge,openbookqa,boolq --multigpu --group128 1 --topk_num 8 --topk_num_final_layer_norm 8 --topk_num_fc2 8 --topk_num_out_proj_head 8 --topk_num_q_proj_head 8
